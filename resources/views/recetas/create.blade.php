@@ -9,11 +9,11 @@
     {{$categorias}}
         <div class="row justify-content-center mt-5">
             <div class="col-md-8">
-            
+
                 <form method="POST" action="{{route('recetas.store')}}" novalidate>
                     @csrf
                     <div class="form-group">
-                        <label for="nombre">Nombre Receta</label>
+                        <label for="titulo">Nombre Receta</label>
                         <input type="text" name="nombre" class="form-control @error('nombre')
                             is-invalid
                         @enderror"  
