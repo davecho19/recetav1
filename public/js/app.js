@@ -49741,6 +49741,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+Vue.config.ignoredElements = ['trix-editor', 'trix-toolbar'];
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -49886,8 +49887,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\vflores\Desktop\Laravel\recetas\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\vflores\Desktop\Laravel\recetas\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\SISTEMA\Documents\Laravel\recetasgit\PROYECTOSOFTWARE\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\SISTEMA\Documents\Laravel\recetasgit\PROYECTOSOFTWARE\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
